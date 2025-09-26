@@ -1,0 +1,39 @@
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: lightblue;
+            background-image: url('gato.png'); /* Gato no fundo da página */
+            background-repeat: no-repeat;
+            min-height: 84ex;
+            background-size: 500px;
+            background-position: right bottom; /* canto inferior direito */
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 28px;
+        }
+
+        h1 {
+            padding: 20px;
+        }
+
+        h2{
+            font-size: 40px;
+        }
+        .secao {
+            margin: 10px;
+        }
+
+        .secao1 {
+            background-color: rgba(255, 0, 0, 0.5); /* vermelho com transparência */
+        }
+
+        .secao2 {
+            background-image: url('gato.png');
+            background-repeat: repeat; /* repete a imagem */
+            background-size: 50px; /* ajusta tamanho do gato repetido */
+            background-color: #565658; /* fundo semitransparente */
+            color: blue;
+        }
+
+        .secao3 {
+            background-color: rgba(0, 255, 0, 0.1); /* verde com transparência */
+        }
