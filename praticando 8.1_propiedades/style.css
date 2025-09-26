@@ -1,0 +1,77 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.5vw 3vw;
+
+    background-image: url('Texto.jpg');
+    background-size: cover;        /* cobre toda a tela */
+    background-repeat: no-repeat;  /* evita repetição */
+    background-attachment: fixed;  /* mantém a imagem fixa ao rolar a página */
+    background-position: center;   /* centraliza a imagem */
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.parte1 {
+    background-color: #8ef08d; /* verde claro */
+}
+
+.parte2 {
+    background-color: #a9d9e5; /* azul claro */
+}
+
+.propriedade {
+    text-indent: 30px;
+    margin-bottom: 5px;
+}
+h3 {
+    background-color: white;
+    width: 100%;          /* ocupa toda a largura da seção */
+    margin: 0 -15px;      /* compensa o padding de 15px da section */
+    padding: 5px 15px;   /* dá respiro dentro do h3 */
+}
+
+/* -------- PARTE 1 -------- */
+.color1 { color: red; }
+.color2 { color: blue; }
+.color3 { color: green; }
+
+.align1 { text-align: left; }
+.align2 { text-align: center; }
+.align3 { text-align: right; }
+
+.deco1 { text-decoration: underline; }
+.deco2 { text-decoration: line-through; }
+.deco3 { text-decoration: overline; }
+
+.transf1 { text-transform: uppercase; }
+.transf2 { text-transform: lowercase; }
+.transf3 { text-transform: capitalize; }
+
+.indent1 { text-indent: 20px; }
+.indent2 { text-indent: 50px; }
+.indent3 { text-indent: 100px; }
+
+.lh1 { line-height: 1; }
+.lh2 { line-height: 1.5; }
+.lh3 { line-height: 2.5; }
+
+/* -------- PARTE 2 -------- */
+.ff1 { font-family: Arial, sans-serif; }
+.ff2 { font-family: "Courier New", monospace; }
+.ff3 { font-family: Georgia, serif; }
+
+.fs1 { font-style: normal; }
+.fs2 { font-style: italic; }
+.fs3 { font-style: oblique; }
+
+.fw1 { font-weight: normal; }
+.fw2 { font-weight: bold; }
+.fw3 { font-weight: 900; }
+
+.fsz1 { font-size: 0.8rem; }
+.fsz2 { font-size: 1.2rem; }
+.fsz3 { font-size: 2rem; }
