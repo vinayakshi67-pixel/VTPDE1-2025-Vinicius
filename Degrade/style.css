@@ -1,0 +1,48 @@
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: left;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: left;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .container img {
+            width: 175px;
+            height: auto;
+            opacity: 0.4; /* Opacidade padrão */
+            transition: opacity 0.3s ease;
+            filter: grayscale(80%); /* Deixa cinza */
+        }
+
+        .container img:hover {
+            opacity: 1;
+            filter: grayscale(0%);
+        }
+
+        .box {
+            
+            margin: 10px;
+            width: 100%;
+            color: black;
+            font-weight: bold;
+        }
+
+        .opacidade1 { background-color: green; opacity: 1; }
+        .opacidade08 { background-color: green; opacity: 0.8; }
+        .opacidade06 { background-color: green; opacity: 0.6; }
+        .opacidade04 { background-color: green; opacity: 0.4; }
+        .opacidade02 { background-color: green; opacity: 0.2; }
+
+        /* Usando RGBA (sem alterar elementos filhos) */
+        .rgba08 { background-color: rgba(0, 128, 0, 0.8); }
+        .rgba06 { background-color: rgba(0, 128, 0, 0.6); }
+        .rgba04 { background-color: rgba(0, 128, 0, 0.4); }
+        .rgba02 { background-color: rgba(0, 128, 0, 0.2); }
